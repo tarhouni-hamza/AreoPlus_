@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+
+# Local database and downloaded data
+backend/aeropulse.db
+backend/*.db
+backend/data/raw/
+backend/data/demo_eval_targets.csv
+backend/artifacts/*.joblib
+backend/artifacts/*.json
+
+# Frontend
+node_modules/
+frontend/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
